@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/shigemk2/my-superagent-sample#readme",
   "dependencies": {
-    "superagent": "^1.8.1"
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "superagent": "^1.8.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
