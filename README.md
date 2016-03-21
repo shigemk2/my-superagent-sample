@@ -16,3 +16,7 @@ $ npm install
 $ php server.php
 $ node client.js
 ```
+
+一応これも使ってみたけど、document is not definedってなる
+
+https://github.com/johntron/superagent-no-cache

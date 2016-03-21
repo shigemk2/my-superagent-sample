@@ -26,13 +26,15 @@ if($scriptInvokedFromCli) {
 function routeRequest()
 {
     header("Content-Type: text/html");
-    header("Cache: hogehoge");
     header('Access-Control-Allow-Origin:*');
+    header("Cache: hogehoge");
     $uri = $_SERVER['REQUEST_URI'];
     if ($uri == '/') {
         echo "/";
     } elseif (preg_match('/\/items/', $uri)) {
         echo "<html><body><p>items</p></body></html>";
+    } elseif (preg_match('/\/samples/', $uri)) {
+        echo "<html><body><p>samples</p></body></html>";
     } else {
         return false;
     }

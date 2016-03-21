@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/shigemk2/my-superagent-sample#readme",
   "dependencies": {
-    "superagent": "^1.8.1"
+    "superagent": "^1.8.1",
+    "superagent-no-cache": "^0.1.0"
   }
 }
