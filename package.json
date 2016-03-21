@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shigemk2/my-superagent-sample/issues"
   },
-  "homepage": "https://github.com/shigemk2/my-superagent-sample#readme"
+  "homepage": "https://github.com/shigemk2/my-superagent-sample#readme",
+  "dependencies": {
+    "superagent": "^1.8.1"
+  }
 }
