@@ -26,6 +26,7 @@ if($scriptInvokedFromCli) {
 function routeRequest()
 {
     header("Content-Type: text/html");
+    header("Cache: hogehoge");
     header('Access-Control-Allow-Origin:*');
     $uri = $_SERVER['REQUEST_URI'];
     if ($uri == '/') {
